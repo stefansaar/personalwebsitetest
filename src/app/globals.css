@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #282828;
+  --foreground: #171717;
+  --nav-bg: #282828;
+  --nav-text: #ecf0f1;
+  --nav-hover: #34495e;
+  --nav-active: #3498db;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #282828;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
